@@ -1,13 +1,21 @@
 def str_print():
     str = '这是一句话'
     print(str)
+
     str = "What's your name?"
     print(str)
+
     str ='''
     这是一个多行文本. 这是第一行.这是第二行.
     "你的名字是," 我问到。他会答"我的名字是木木"
     '''
     print(str)
+
+    # 格式化字符串输出
+    var1 = 'str1'
+    var2 = 'str2'
+    print(f'str: {var1}, str: {var2}')
+    print('str: {}, str: {}'.format(var1, var2))
 
 def str_join():
     strings = ['do', 're', 'mi']
@@ -18,6 +26,7 @@ def str_join():
 #重复输出字符串
 def str_x():
     str = "string"
+    # 输出stringstring
     print(str*2)
 
 #通过索引获取字符串中字符
@@ -51,6 +60,4 @@ def str_revese():
 
 
 if __name__ == '__main__':
-    # str_cut()
-    dic = {1000: 'M', 900: 'CM', 500: 'D', 400: 'CD', 100: 'C', 90: 'XC', 50: 'L', 40: 'XL', 10: 'X', 9: 'IX', 5: 'V', 4: 'IV', 1: 'I'}
-    print(dic)
+    str_print()
