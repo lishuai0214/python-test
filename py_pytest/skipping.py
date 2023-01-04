@@ -2,7 +2,7 @@
 
 import pytest
 
-@pytest.mark.skip
+@pytest.mark.skip(reason='out-of-date api')
 def test_min():
     values = (2, 3, 1, 4, 6)
 

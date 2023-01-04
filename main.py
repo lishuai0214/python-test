@@ -5,19 +5,15 @@
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
+    a = {"key": "vale"}
+    b = a
+    b["key2"] = "value2"
+    print(a)
+    print(b)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    # print(divmod(23, 10))
-    print('0abdc'[0] <= '0'[0])
-    print('9abdc'[0] > '2'[0])
-    print('abcd' and 'abcde')
-    print('A'.lower())
-    print(ord('x'))
-    print(chr(120))
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
