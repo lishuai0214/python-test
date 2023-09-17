@@ -51,13 +51,13 @@ def post_order(root):
         post_order(root.rchild)
         print(root.data, end=',')
 
+if __name__ == '__main__':
+    a = CreateBiTree('ABCDE#F##G#####')
+    root = a() # 调用__call__方法
+    print('根结点为：', root.data)
 
-a = CreateBiTree('ABCDE#F##G#####')
-root = a() # 调用__call__方法
-print('根结点为：', root.data)
-
-pre_order(root)
-print('')
-in_order(root)
-print('')
-post_order(root)
+    pre_order(root)
+    print('')
+    in_order(root)
+    print('')
+    post_order(root)

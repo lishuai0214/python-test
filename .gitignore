@@ -1,2 +1,4 @@
 /.pytest_cache/
 .idea
+/py_coverage/my_coverage_result/
+/py_coverage/.pytest_cache/
